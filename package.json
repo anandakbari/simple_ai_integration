@@ -1,0 +1,21 @@
+{
+  "name": "openai-summarize-api",
+  "version": "1.0.0",
+  "description": "Express API that uses OpenAI to summarize text",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["express", "openai", "api", "summarization"],
+  "author": "",
+  "license": "MIT"
+}
